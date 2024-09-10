@@ -1,0 +1,26 @@
+.FeaturedProduct{
+margin:100px 100px;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 50px;
+    .top{
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+    
+    }
+    h1{
+        
+        flex:2;
+        text-transform: capitalize;
+    }
+    p{
+        flex:3;
+        color: gray;
+    }
+} 
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; // Space between cards
+  justify-content: center; // Center cards in the container
+}

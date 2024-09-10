@@ -1,0 +1,22 @@
+.products{
+     font-family: 'Poppins', sans-serif;
+     padding:30px 50px;
+     display: flex; /* Custom font */
+
+     .left{
+      flex:1;
+      position: sticky;
+      height: 100%;
+      top:50px;
+      }
+      .right{
+      flex:3;
+        .catImg{
+           width:100%;
+           height:300px;
+           object-fit: cover;
+           margin-bottom: 50px;
+        }
+      }
+}
+
